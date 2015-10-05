@@ -33,3 +33,15 @@
 	top: -20px;
 	width: 50px;
 }
+
+#vt-fix-menu-aviso {
+	display: block;
+	position: relative;
+	top: -30px;
+	margin-left: 70px;
+}
+
+#vt-fix-menu-aviso p {
+	font-weight: bold;
+	font-size: 1.5em;
+}
