@@ -1,8 +1,35 @@
 @charset "UTF-8";
 
 #vt-fix-main-menu {
-	width: 300px;
-	height: 200px;
-	float: left;
-	display: block;
+	position: fixed;
+	z-index: 1;
+	width: 350px;
+	height: 100px;
+	right: 0px;
+	bottom: 0px;
+	border: 2px solid black;
+	border-top-left-radius: 10px;
+	padding: 10px;
+	text-align: left;
+	font-family: Verdana;
+	background-color: green;
+}
+
+#vt-fix-main-menu p{
+	text-indent: 1px;
+	text-align: left;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+#vt-fix-main-menu input{
+	position: relative;
+	top: -10px;
+	width: 150px;
+}
+
+#vt-fix-main-menu button {
+	position: relative;
+	top: -20px;
+	width: 50px;
 }
