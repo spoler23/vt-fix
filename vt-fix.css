@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-#vt-fix-main-menu {
+#fixerprincipal {
 	position: fixed;
 	z-index: 1;
 	width: 350px;
@@ -15,33 +15,35 @@
 	background-color: green;
 }
 
-#vt-fix-main-menu p{
+#fixerprincipal p{
 	text-indent: 1px;
 	text-align: left;
 	font-size: 1.3em;
 	font-weight: bold;
 }
 
-#vt-fix-main-menu input{
+#fixerprincipal input{
 	position: relative;
 	top: -10px;
 	width: 150px;
 }
 
-#vt-fix-main-menu button {
+#fixerprincipal button {
 	position: relative;
 	top: -20px;
 	width: 50px;
 }
 
-#vt-fix-menu-aviso {
+#fixer-aviso {
 	display: block;
 	position: relative;
 	top: -30px;
 	margin-left: 70px;
 }
 
-#vt-fix-menu-aviso p {
+#fixer-aviso p {
 	font-weight: bold;
 	font-size: 1.5em;
 }
+
+!important 
